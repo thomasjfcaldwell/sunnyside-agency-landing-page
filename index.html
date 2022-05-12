@@ -1,68 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./styles/styles.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+		<title>Frontend Mentor | Sunnyside agency landing page</title>
+	</head>
+	<body>
+		<!-- main section -->
+		<main>
+			<!-- hero section -->
+			<section class="hero">
+				<div class="hero__container">
+					<!-- nav section -->
+					<div class="nav__container">
+						<h3 class="logo">sunnyside</h3>
+						<ul class="nav__list">
+							<li class="nav__list-item">About</li>
+							<li class="nav__list-item">Services</li>
+							<li class="nav__list-item">Projects</li>
+							<li class="nav__list-item">Contact</li>
+						</ul>
+					</div>
+					<!-- nav section ends -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
-  Services
-  Projects
-  Contact
+					<!-- hero header -->
+					<div class="hero__header-container">
+						<h1 class="hero__header">We are creatives</h1>
+						<svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
+							<g
+								stroke="#FFF"
+								stroke-width="6"
+								fill="none"
+								fill-rule="evenodd"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path d="M18 3v100M3 95.484l15 15 15-15" />
+							</g>
+						</svg>
+					</div>
+					<!-- hero header end -->
+				</div>
+			</section>
+			<!-- hero section ends -->
 
-  We are creatives
+			<!-- info section -->
+			<section class="info">
+				<div class="info__container">
+					<!-- info section col 1 -->
+					<div class="info__section-container">
+						Transform your brand We are a full-service creative agency
+						specializing in helping brands grow fast. Engage your clients
+						through compelling visuals that do most of the marketing for you.
+						Learn more
+					</div>
+					<!-- info section col 1 end -->
 
-  Transform your brand
+					<!-- info section col 2 -->
+					<div class="info__section-container">
+						<!-- Egg Image -->
+					</div>
+					<!-- info section col 2 end -->
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+					<!-- info section col 3 -->
+					<div class="info__section-container">
+						<!-- cup Image -->
+					</div>
+					<!-- info section col 3 end -->
 
-  Learn more
+					<!-- info section col 4 -->
+					<div class="info__section-container">
+						Stand out to the right audience Using a collaborative formula of
+						designers, researchers, photographers, videographers, and
+						copywriters, we’ll build and extend your brand in digital places.
+						Learn more
+					</div>
+					<!-- info section col 4 end-->
 
-  Stand out to the right audience
+					<!-- info section col 5 - background cherries -->
+					<div class="info__section-container">
+						Graphic design Great design makes you memorable. We deliver artwork
+						that underscores your brand message and captures potential clients’
+						attention.
+					</div>
+					<!-- info section col 5 end -->
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+					<!-- info section col 6 - background oranges -->
+					<div class="info__section-container">
+						Photography Increase your credibility by getting the most stunning,
+						high-quality photos that improve your business image.
+					</div>
+					<!-- info section col 6 ends -->
+				</div>
+			</section>
+			<!-- info section end -->
 
-  Learn more
+			<!-- testimonials section -->
+			<section class="testimonials">
+				<div class="testimonials__container">
+					<h3 class="testimonials__header">Client testimonials</h3>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+					<div class="testimonials__col-container">
+						<!-- testimonials col 1 -->
+						<div class="testimonials__col">
+							We put our trust in Sunnyside and they delivered, making sure our
+							needs were met and deadlines were always hit. Emily R. Marketing
+							Director
+						</div>
+						<!-- testimonials col 1 end -->
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+						<!-- testimonials col 2 -->
+						<div class="testimonials__col">
+							Sunnyside’s enthusiasm coupled with their keen interest in our
+							brand’s success made it a satisfying and enjoyable experience.
+							Thomas S. Chief Operating Officer
+						</div>
+						<!-- testimonials col 2 end -->
 
-  Client testimonials
+						<!-- testimonials col 3 -->
+						<div class="testimonials__col">
+							Incredible end result! Our sales increased over 400% when we
+							worked with Sunnyside. Highly recommended! Jennie F. Business
+							Owner
+						</div>
+						<!-- testimonials col 3 end -->
+					</div>
+				</div>
+			</section>
+			<!-- testimonials section end -->
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
+			<!-- image section -->
+			<section class="image">
+				<div class="image__container">
+					<div class="image__col">
+						<!-- milk bottle image -->
+					</div>
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
+					<div class="image__col">
+						<!-- orange image -->
+					</div>
 
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
+					<div class="image__col">
+						<!-- sugar cube image -->
+					</div>
+				</div>
+			</section>
+			<!-- image section end -->
 
-  About
-  Services
-  Projects
-  Contact
+			<!-- footer section -->
+			<section class="footer">
+				<div class="footer__container">
+					<h3 class="logo">sunnyside</h3>
+					<!-- footer link section -->
+					<div class="footer__link-container">
+						<ul>
+							<li>About</li>
+							<li>Services</li>
+							<li>Projects</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+					<!-- footer link section end -->
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+					<!-- footer social media section -->
+					<div class="footer__social-container">
+						<div class="footer__social-icon">
+							<!-- facebook -->
+						</div>
+						<div class="footer__social-icon">
+							<!-- instagram -->
+						</div>
+						<div class="footer__social-icon">
+							<!-- twitter -->
+						</div>
+						<div class="footer__social-icon">
+							<!-- pinterest -->
+						</div>
+					</div>
+					<!-- footer social media section end -->
+				</div>
+			</section>
+			<!-- footer section end -->
+			<!-- main section end -->
+		</main>
+	</body>
 </html>
