@@ -11,6 +11,10 @@
 			rel="stylesheet"
 		/>
 		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
@@ -28,7 +32,7 @@
 				<div class="hero__container">
 					<!-- nav section -->
 					<div class="nav__container">
-						<h3 class="logo">sunnyside</h3>
+						<div class="logo"></div>
 						<ul class="nav__list">
 							<li class="nav__list-item">About</li>
 							<li class="nav__list-item">Services</li>
@@ -41,7 +45,12 @@
 					<!-- hero header -->
 					<div class="hero__header-container">
 						<h1 class="hero__header">We are creatives</h1>
-						<svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
+						<svg
+							class="hero__header-arrow"
+							width="36"
+							height="114"
+							xmlns="http://www.w3.org/2000/svg"
+						>
 							<g
 								stroke="#FFF"
 								stroke-width="6"
@@ -64,10 +73,13 @@
 				<div class="info__container">
 					<!-- info section col 1 -->
 					<div class="info__section-container">
-						Transform your brand We are a full-service creative agency
-						specializing in helping brands grow fast. Engage your clients
-						through compelling visuals that do most of the marketing for you.
-						Learn more
+						<h2 class="info__section-header">Transform your brand</h2>
+						<p class="info__section-text">
+							We are a full-service creative agency specializing in helping
+							brands grow fast. Engage your clients through compelling visuals
+							that do most of the marketing for you.
+						</p>
+						<a href="" class="info__section-link">Learn more</a>
 					</div>
 					<!-- info section col 1 end -->
 
@@ -85,25 +97,36 @@
 
 					<!-- info section col 4 -->
 					<div class="info__section-container">
-						Stand out to the right audience Using a collaborative formula of
-						designers, researchers, photographers, videographers, and
-						copywriters, we’ll build and extend your brand in digital places.
-						Learn more
+						<h2 class="info__section-header">
+							Stand out to the right audience
+						</h2>
+						<p class="info__section-text">
+							Using a collaborative formula of designers, researchers,
+							photographers, videographers, and copywriters, we’ll build and
+							extend your brand in digital places.
+						</p>
+						<a href="" class="info__section-link">Learn more</a>
 					</div>
 					<!-- info section col 4 end-->
 
 					<!-- info section col 5 - background cherries -->
 					<div class="info__section-container">
-						Graphic design Great design makes you memorable. We deliver artwork
-						that underscores your brand message and captures potential clients’
-						attention.
+						<h2 class="info__section-subheader">Graphic design</h2>
+						<p class="info__section-subtext">
+							Great design makes you memorable. We deliver artwork that
+							underscores your brand message and captures potential clients’
+							attention.
+						</p>
 					</div>
 					<!-- info section col 5 end -->
 
 					<!-- info section col 6 - background oranges -->
 					<div class="info__section-container">
-						Photography Increase your credibility by getting the most stunning,
-						high-quality photos that improve your business image.
+						<h2 class="info__section-subheader">Photography</h2>
+						<p class="info__section-subtext">
+							Increase your credibility by getting the most stunning,
+							high-quality photos that improve your business image.
+						</p>
 					</div>
 					<!-- info section col 6 ends -->
 				</div>
@@ -118,25 +141,39 @@
 					<div class="testimonials__col-container">
 						<!-- testimonials col 1 -->
 						<div class="testimonials__col">
-							We put our trust in Sunnyside and they delivered, making sure our
-							needs were met and deadlines were always hit. Emily R. Marketing
-							Director
+							<div class="testimonials__col-image"></div>
+							<p class="testimonials__col-text">
+								We put our trust in Sunnyside and they delivered, making sure
+								our needs were met and deadlines were always hit.
+							</p>
+							<h3 class="testimonials__col-header">Emily R.</h3>
+							<h5 class="testimonials__col-subheader">Marketing Director</h5>
 						</div>
 						<!-- testimonials col 1 end -->
 
 						<!-- testimonials col 2 -->
 						<div class="testimonials__col">
-							Sunnyside’s enthusiasm coupled with their keen interest in our
-							brand’s success made it a satisfying and enjoyable experience.
-							Thomas S. Chief Operating Officer
+							<div class="testimonials__col-image"></div>
+							<p class="testimonials__col-text">
+								Sunnyside’s enthusiasm coupled with their keen interest in our
+								brand’s success made it a satisfying and enjoyable experience.
+							</p>
+							<h3 class="testimonials__col-header">Thomas S.</h3>
+							<h5 class="testimonials__col-subheader">
+								Chief Operating Officer
+							</h5>
 						</div>
 						<!-- testimonials col 2 end -->
 
 						<!-- testimonials col 3 -->
 						<div class="testimonials__col">
-							Incredible end result! Our sales increased over 400% when we
-							worked with Sunnyside. Highly recommended! Jennie F. Business
-							Owner
+							<div class="testimonials__col-image"></div>
+							<p class="testimonials__col-text">
+								Incredible end result! Our sales increased over 400% when we
+								worked with Sunnyside. Highly recommended!
+							</p>
+							<h3 class="testimonials__col-header">Jennie F.</h3>
+							<h5 class="testimonials__col-subheader">Business Owner</h5>
 						</div>
 						<!-- testimonials col 3 end -->
 					</div>
@@ -154,6 +191,9 @@
 					<div class="image__col">
 						<!-- orange image -->
 					</div>
+					<div class="image__col">
+						<!-- cone image -->
+					</div>
 
 					<div class="image__col">
 						<!-- sugar cube image -->
@@ -165,14 +205,14 @@
 			<!-- footer section -->
 			<section class="footer">
 				<div class="footer__container">
-					<h3 class="logo">sunnyside</h3>
+					<div class="footer__container-logo"></div>
 					<!-- footer link section -->
-					<div class="footer__link-container">
-						<ul>
-							<li>About</li>
-							<li>Services</li>
-							<li>Projects</li>
-							<li>Contact</li>
+					<div class="footer__nav-container">
+						<ul class="footer__nav">
+							<li class="footer__nav-item">About</li>
+							<li class="footer__nav-item">Services</li>
+							<li class="footer__nav-item">Projects</li>
+							<!-- <li class="footer__nav-item">Contact</li> -->
 						</ul>
 					</div>
 					<!-- footer link section end -->
